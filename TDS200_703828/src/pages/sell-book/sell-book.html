@@ -1,0 +1,38 @@
+<!--
+  Generated template for the SellBookPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Selg Bok</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label>Tittel</ion-label>
+    <ion-input placeholder=""  [(ngModel)]="name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Forfatter</ion-label>
+    <ion-input placeholder="" [(ngModel)]="author"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Ekstra info</ion-label>
+    <ion-input placeholder="" [(ngModel)]="extraInfo"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Pris</ion-label>
+    <ion-input placeholder=""  [(ngModel)]="price"></ion-input>
+  </ion-item>
+  
+</ion-content>
+<ion-footer>
+    <button ion-button default full color="secondary" (click)="sellBook()">SELG BOK</button>
+  <button ion-button default full color="danger" (click)="logOut()">LOGG UT</button>
+</ion-footer>

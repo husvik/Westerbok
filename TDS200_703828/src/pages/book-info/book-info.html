@@ -1,0 +1,29 @@
+<!--
+  Generated template for the BookInfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Informasjon</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  
+  <p>Tittel: {{selectedBook.name}}</p>
+  <p>Forfatter: {{selectedBook.author}}</p>
+  <p>Tilleggsinformasjon: {{selectedBook.extraInfo}}</p>
+  <p>Pris: {{selectedBook.price}}</p>
+  <p>Ta kontakt for kjøp: {{selectedBook.contact}}</p>
+
+<!--
+  MapContainer
+-->
+  <div #map id="mapConfig"></div>
+</ion-content>
+

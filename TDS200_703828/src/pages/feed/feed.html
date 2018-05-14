@@ -1,0 +1,25 @@
+<!--
+  Generated template for the FeedPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Kjøp Bok</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item no-lines *ngFor="let book of books | async" (click)="goToDesc(book)">
+        <img item-start width="25%" height="40%" src="http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2v/dp/p02vdpfn.jpg" />
+        <p item-contain>{{book.name}}</p>
+        <p item-contain>{{book.price}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
+

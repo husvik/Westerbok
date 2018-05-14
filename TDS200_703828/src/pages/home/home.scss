@@ -1,0 +1,71 @@
+page-home {
+
+    ion-content {
+        background: url(http://veidekke.no/Imported_articles/Resolved_relations/article69908.ece/representations/mainSlider/TJO-11-09-16-02_Westerdals%20fasade.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .container {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        
+    
+    }
+    input[type='text']{
+        text-align: center;
+        color: white;
+    }
+
+    .header-text{
+        font-style: italic;
+        color: white;
+        margin-top: 6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    
+    .text-input-field {
+        margin-top: 10em;
+        
+        background: transparent;
+    }
+
+    ::-webkit-input-placeholder {
+        text-indent: 0;
+        color: white;
+        text-align: center;
+        
+        
+     }
+     
+     :-moz-placeholder { 
+        color: white;text-align:center; 
+        
+        
+     }
+     
+     ::-moz-placeholder { 
+        
+        color: white;text-align:center;
+        
+     }
+     
+     :-ms-input-placeholder {  
+        color: white;text-align:center;
+        
+     }
+
+     
+     
+
+     
+     
+        
+    
+
+}
